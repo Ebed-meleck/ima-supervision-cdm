@@ -115,4 +115,10 @@ export function calculateStats(data: any[]): any {
   });
 
   return stats;
-} 
+}
+
+export const parseQuery = (params?: any) => params
+  ? Object.entries(params)
+    .map(([keys, value]) => `${keys}=${value}`)
+    .join('&')
+  : '';

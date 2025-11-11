@@ -29,7 +29,7 @@ export function MapViewerGoogle({
   address,
 }: MapViewerGoogleProps) {
   // Remplace cette clé par la tienne !
-  const GOOGLE_MAPS_API_KEY = "AIzaSyD-AxtDoi5YRn4fGvKynAn_Xsdb6fnarv8"
+  const GOOGLE_MAPS_API_KEY = "AIzaSyARBPRIE4tW2ghfUtCloB7_hJEeKsH54Og";
 
   const lat = parseFloat(latitude)
   const lng = parseFloat(longitude)
